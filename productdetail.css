@@ -1,0 +1,166 @@
+.t-bigimage > img{
+    width: 250px;
+    height:250px;
+}
+
+.t-images {
+    position: relative;
+}
+
+
+.hide {
+    display: none;
+    animation: fadein 0.5s;
+}
+
+.hide img {
+    width: 350px;
+    height:450px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.t-container {
+    display: flex;
+    flex-direction: column;
+    width: 990px;
+    margin: auto;
+    margin-bottom: 30px;
+    background-color: white;
+    padding: 20px 55px;
+    box-sizing: border-box;
+    text-align: justify;
+    border-radius: 4px;
+}
+
+.t-bigimage-infobox {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.t-name {
+    font-weight: bold;
+    font-size: 28px;
+    width: 366px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+
+.t-prices {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+.t-price {    
+    font-size: 28px;
+    color:#2b9116;
+}
+
+.t-price0 {
+    padding-left: 30px;
+    font-size: 20px;
+    color: #AAAAAA;
+}
+
+.t-discount {
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.t-infobox {
+    margin-left: 44px;
+}
+
+.t-shortinfo > div {
+    padding-bottom: 12px;
+    font-size: 14px;
+}
+
+.t-shortinfo {
+    padding-bottom: 25px;
+}
+
+.t-green {
+    color: red;
+}
+
+.t-addcart {
+    background-color: red;
+    color: var(--main-color);
+    border-radius: 8px;
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+    border-color: var(--main-color);
+    border-width: 1px;
+    margin-left: 23px;
+}
+
+.t-addcart > a {
+    text-decoration: none;
+    color: white;
+}
+
+.t-buynow {
+    background-color:red;
+    color: var(--main-color);
+    border-radius: 8px;
+    width: 150px;
+    height: 55px;
+    font-size: 20px;
+    font-weight: 600;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.35);
+    border-color: var(--main-color);
+    border-width: 1px;
+    margin-left: 23px;
+}
+
+
+.t-buynow > a {
+    text-decoration: none;
+    color:white;
+}
+
+/*h1 {
+    font-size: 28px;
+    font-weight: bold;
+}*/
+
+td {
+    border-top: 1px solid #ECEEEF;
+    padding: 5px;
+}
+
+.t-products-in-details {
+    padding-top: 20px;
+}
+
+h1 {
+    text-shadow: 1px 1px;
+}
+
+.t-products-in-details > h3 {
+    line-height: 25px;
+}
+
+.t-products-in-details > img {
+    width: 70%;
+    height: auto;
+    margin-top: 20px; 
+    margin-bottom: 20px; 
+    margin-left: 15%;
+}
+
+.t-products-in-details > h2 {
+    line-height: 25px;
+}
+
+.t-products-in-details > p {
+    line-height: 25px;
+}
